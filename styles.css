@@ -452,22 +452,36 @@ body{
   padding: 22px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 18px;
+}
+.flip-subtitle{
+  margin: 0 0 8px 0;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: rgba(18,18,18,.55);
 }
 
 .flip-bullets{
   margin: 0;
   padding-left: 18px;
-  color: rgba(18,18,18,.82);
-  line-height: 1.65;
+  line-height: 1.6;
   font-size: 14px;
+  color: rgba(18,18,18,.85);
 }
+
 
 .flip-tags{
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin-top: auto;
+}
+
+.flip-section{
+  display: flex;
+  flex-direction: column;
 }
 
 .flip-tags span{
