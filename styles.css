@@ -1,5 +1,5 @@
 :root{
-  --bg: #d7d7d7;
+  --bg: #d61313;
   --text: #121212;
   --muted: rgba(18,18,18,.68);
 
@@ -21,15 +21,13 @@
 html{ scroll-behavior: smooth; }
 
 body{
-  margin: 0;
-  color: var(--text);
-  font-family: var(--sans);
-  padding-top: 86px;
-
-  background:
-    radial-gradient(1200px 600px at 20% 10%, rgba(255,255,255,.55), rgba(255,255,255,0) 55%),
-    radial-gradient(900px 500px at 80% 15%, rgba(255,255,255,.35), rgba(255,255,255,0) 60%),
-    linear-gradient(90deg, #cfcfcf 0%, #dedede 35%, #cfcfcf 70%, #d8d8d8 100%);
+  background: linear-gradient(
+    135deg,
+    #121212 0%,
+    #1c1c24 50%,
+    #181826 100%
+  );
+  color: #f5f5f5;
 }
 
 .container{
@@ -280,7 +278,7 @@ body{
   background: rgb(199 19 222 / 22%);
   box-shadow: 0 8px 18px rgba(0,0,0,.18);
   border: 1px solid rgba(0,0,0,.12);
-  color: rgba(18,18,18,.9);
+  color: white;
   text-decoration: none;
   font-weight: 600;
 }
@@ -290,7 +288,7 @@ body{
 .about-text{
   font-size: 16px;
   line-height: 1.75;
-  color: rgba(18,18,18,.82);
+  color: white;
   max-width: 520px;
 }
 
@@ -302,7 +300,7 @@ body{
   background: rgb(199 19 222 / 22%);
   box-shadow: 0 18px 32px rgba(0,0,0,.18);
   border: 1px solid rgba(0,0,0,.12);
-  color: black;
+  color: white;
   text-decoration: none;
   font-weight: 700;
 }
@@ -345,7 +343,7 @@ body{
   border-radius: 999px;
   background: rgba(0,0,0,.06);
   border: 1px solid rgba(0,0,0,.10);
-  color: rgba(18,18,18,.78);
+  color: white;
   font-size: 13px;
   font-weight: 700;
 }
@@ -443,7 +441,7 @@ body{
   font-weight: 800;
   letter-spacing: .06em;
   text-transform: uppercase;
-  color: rgba(18,18,18,.62);
+  color: white;
 }
 
 /* BACK */
@@ -460,7 +458,7 @@ body{
   font-weight: 800;
   letter-spacing: .08em;
   text-transform: uppercase;
-  color: rgba(18,18,18,.55);
+  color: white;
 }
 
 .flip-bullets{
@@ -468,7 +466,7 @@ body{
   padding-left: 18px;
   line-height: 1.6;
   font-size: 14px;
-  color: rgba(18,18,18,.85);
+  color: white;
 }
 
 
@@ -494,7 +492,7 @@ body{
   letter-spacing: .02em;
   background: rgba(0,0,0,.07);
   border: 1px solid rgba(0,0,0,.10);
-  color: rgba(18,18,18,.72);
+  color: white;
 }
 
 /* Responsive (keep your existing ones, but ensure flip cards stack nicely) */
@@ -523,12 +521,12 @@ body{
   margin: 0 0 10px;
   font-family: var(--serif);
   font-size: 18px;
-  color: rgba(18,18,18,.68);
+  color: white;
 }
 
 .content-text{
   margin: 0;
-  color: rgba(18,18,18,.82);
+  color: white;
   line-height: 1.7;
 }
 
@@ -569,7 +567,7 @@ body{
 
 .contact-text{
   margin: 0 0 14px;
-  color: rgba(18,18,18,.82);
+  color: white;
 }
 
 .contact-links{
@@ -581,7 +579,7 @@ body{
 .contact-links a{
   text-decoration: none;
   font-weight: 700;
-  color: rgba(18,18,18,.85);
+  color: white;
   display: inline-flex;
   align-items: center;
   gap: 10px;
