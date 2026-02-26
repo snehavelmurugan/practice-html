@@ -277,7 +277,7 @@ body{
   gap: 10px;
   padding: 12px 18px;
   border-radius: 999px;
-  background: rgb(199 19 222 / 22%);
+  background: rgb(226, 223, 223);
   box-shadow: 0 8px 18px rgba(0,0,0,.18);
   border: 1px solid rgba(0,0,0,.12);
   color: rgba(18,18,18,.9);
@@ -299,10 +299,10 @@ body{
   margin-top: 26px;
   padding: 18px 34px;
   border-radius: 26px;
-  background: rgb(199 19 222 / 22%);
+  background: rgb(226, 223, 223);
   box-shadow: 0 18px 32px rgba(0,0,0,.18);
   border: 1px solid rgba(0,0,0,.12);
-  color: black;
+  color: #e75fdc;
   text-decoration: none;
   font-weight: 700;
 }
